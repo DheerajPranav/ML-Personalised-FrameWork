@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LogisticRegression:
+class Perceptron:
     def __init__(self):
         pass
 

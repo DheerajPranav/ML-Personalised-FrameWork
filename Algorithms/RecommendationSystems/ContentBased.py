@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LogisticRegression:
+class ContentBased:
     def __init__(self):
         pass
 

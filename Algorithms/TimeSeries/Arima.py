@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LinearRegression:
+class ARIMA:
     def __init__(self):
         pass
 

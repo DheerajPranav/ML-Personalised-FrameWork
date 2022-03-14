@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LogisticRegression:
+class CollaborativeFiltering:
     def __init__(self):
         pass
 

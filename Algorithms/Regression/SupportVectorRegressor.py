@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LinearRegression:
+class SVR:
     def __init__(self):
         pass
 

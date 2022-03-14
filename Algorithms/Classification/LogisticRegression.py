@@ -1,3 +1,5 @@
+__author__ = 'Dheeraj'
+
 import numpy as np
 
 
@@ -12,7 +14,7 @@ class LogisticRegression:
 
         self.m, self.n = 0, 0
         self.weights, self.bias = 0, 0
-        self.x, self.y = np.array(), np.array()
+        self.x, self.y = np.array([]), np.array([])
 
     def train(self):
         return

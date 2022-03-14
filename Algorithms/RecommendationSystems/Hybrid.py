@@ -1,6 +1,7 @@
+__author__ = 'Dheeraj'
 
 
-class LogisticRegression:
+class Hybrid:
     def __init__(self):
         pass
 

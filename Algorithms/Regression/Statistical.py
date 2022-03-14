@@ -1,8 +1,9 @@
+__author__ = 'Dheeraj'
 
 
-class LinearRegression:
-    def __init__(self):
-        pass
+class QuantileApproach:
+    def __init__(self, quantile_parameter):
+        self.quantile_parameter = quantile_parameter
 
     def train(self):
         return
