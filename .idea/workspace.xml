@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a9b0b02-b904-4d02-90f1-52ffbe748cd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Classification/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Classification/KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Regression/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Regression/LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/External-ML-Jobs/Processor/PreProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/External-ML-Jobs/Processor/PreProcessor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
