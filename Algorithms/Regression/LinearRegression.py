@@ -3,7 +3,7 @@ __author__ = 'Dheeraj'
 import numpy as np
 
 
-class LinearRegression:
+class NumericalApproach:
     def __init__(self, learning_rate=0.01, epochs=1000):
         """
         1. epochs: no of iterations
@@ -61,3 +61,15 @@ class LinearRegression:
         """
         y_pred = x * self.weights + self.bias
         return y_pred
+
+
+class AnalyticalApproach:
+
+    def train(self):
+        return
+
+    def predict(self):
+        return
+
+    def fit(self):
+        return
