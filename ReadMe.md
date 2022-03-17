@@ -7,3 +7,6 @@
 1. Algorithms built from scratch for relevant tasks & data-specifications
 2. Regression & classification algorithms 
 3. Neural Networks architecture is Under progress# ML-Personalised-FrameWork
+
+
+> Accuracy metrics & other pre-procesing modules mathematical formulaes are implemented
