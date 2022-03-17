@@ -7,8 +7,11 @@ from scipy.stats import mode
 class KNearestNeighbours:
     def __init__(self, k_neighbours, distance_metric: str ='euclidean'):
         """
-        1. epochs: no of iterations
-        2. learning-rate: To penalize weights step wise
+        1. k neighbours: No of nearest neighbours tot be considered ,
+           while assigning final class-label.
+        2. distance_metric: Way to calculate distance between two points
+           - Euclidean
+           - Manhattan
         """
         self.k = k_neighbours
         self.distance_metric = distance_metric
