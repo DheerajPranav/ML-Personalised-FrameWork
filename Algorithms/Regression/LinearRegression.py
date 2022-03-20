@@ -43,8 +43,8 @@ class NumericalApproach:
         y_pred = self.predict(self.x)
 
         # Calculating derivatives w.r.t Parameters
-        weightsD = (-2/self.n) * sum(self.x * (self.y - y_pred))
-        biasD = (-1/self.n) * sum(self.y-y_pred)
+        weightsD = (-2/self.m) * sum(self.x * (self.y - y_pred))
+        biasD = (-1/self.m) * sum(self.y-y_pred)
 
         # update weights
         self.weights = self.weights - self.lr * weightsD
@@ -64,9 +64,8 @@ class NumericalApproach:
 
 
 class AnalyticalApproach:
-
-    def train(self):
-        return
+    def __init__(self):
+        pass
 
     def predict(self):
         return

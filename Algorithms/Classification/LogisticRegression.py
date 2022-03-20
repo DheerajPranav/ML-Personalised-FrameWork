@@ -16,9 +16,6 @@ class LogisticRegression:
         self.weights, self.bias = 0, 0
         self.x, self.y = np.array([]), np.array([])
 
-    def train(self):
-        return
-
     def fit(self, x, y):
         self.x, self.y = x, y
 
@@ -36,10 +33,18 @@ class LogisticRegression:
         return self
 
     def modify_weights(self):
-        y_pred = (self.weights * self.x) + self.bias
+        # z = (x * w) + b
+        z = (self.x.dot(self.weights) + self.bias)
+
+        # Sigmoid is applied to get values in range (0, 1) and equation ==> 1 / (1 + (np.exp(-z)))
+        y_pred = self.apply_sigmoid(z)
 
         # Calculating derivatives w.r.t Parameters
         weightsD = (-2/self.n)*sum(self.x * (self.y - y_pred))
         biasD = (-1/self.n)*sum(self.y-y_pred)
 
         pass
+
+    @staticmethod
+    def apply_sigmoid(z):
+        return 1/ (1 + (np.exp(-z)))
