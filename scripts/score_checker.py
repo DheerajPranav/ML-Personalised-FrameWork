@@ -23,6 +23,7 @@ def check_score_for(list_of_files_or_module, threshold):
 
 files_to_check = []
 
+
 for root, dirs, files in os.walk("main"):
     for file in files:
         if file.endswith(".py"):
