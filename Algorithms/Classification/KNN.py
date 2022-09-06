@@ -5,7 +5,7 @@ from scipy.stats import mode
 
 
 class KNearestNeighbours:
-    def __init__(self, k_neighbours, distance_metric: str ='euclidean'):
+    def __init__(self, k_neighbours, distance_metric: str = 'euclidean'):
         """
         1. k neighbours: No of nearest neighbours tot be considered ,
            while assigning final class-label.
@@ -33,7 +33,7 @@ class KNearestNeighbours:
 
         y_predict = np.zeros(self.m_test)
 
-        # Lets find nearest neighbours for each record/input
+        # Let's find nearest neighbours for each record/input
         for i in range(x_test):
             x = x_test[i]
 
@@ -55,7 +55,7 @@ class KNearestNeighbours:
 
             distances[i] = dist
 
-        # Sorting our y-train based distance metric indexes to fetch k nearest samples
+        # Sorting our y-train based distance metric indexes to fetch k-nearest samples
         sorted_indexes = distances.argsort()
         y_train = self.y_train[sorted_indexes]
         k_samples = y_train[:self.k]
@@ -64,7 +64,7 @@ class KNearestNeighbours:
 
     @staticmethod
     def euclidean_distance(x1, x2):
-        return np.sqrt(np.sum(np.square(x1- x2)))
+        return np.sqrt(np.sum(np.square(x1 - x2)))
 
     @staticmethod
     def manhattan_distance(x1, x2):

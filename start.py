@@ -1,4 +1,4 @@
-__author__ = 'Dheeraj, Venkat, Danny'
+__author__ = 'Dheeraj'
 
 if __name__ == '__main__':
     print('Info: Begin Performing Tasks.')
