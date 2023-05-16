@@ -59,7 +59,6 @@ class KNearestNeighbours:
         sorted_indexes = distances.argsort()
         y_train = self.y_train[sorted_indexes]
         k_samples = y_train[:self.k]
-
         return k_samples
 
     @staticmethod
