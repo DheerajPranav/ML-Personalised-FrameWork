@@ -53,6 +53,7 @@ class KNearestNeighbours:
             else:
                 dist = self.manhattan_distance(x, self.x_train)
 
+
             distances[i] = dist
 
         # Sorting our y-train based distance metric indexes to fetch k-nearest samples
