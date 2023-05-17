@@ -6,7 +6,6 @@ from tests.RegressionValidation import Validations
 
 sample_trigger = True
 
-
 if __name__ == '__main__':
     print('Info: Begin Performing Tasks.')
 
