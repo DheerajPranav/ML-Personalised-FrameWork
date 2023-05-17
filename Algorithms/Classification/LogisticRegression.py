@@ -40,11 +40,9 @@ class LogisticRegression:
         y_pred = self.apply_sigmoid(z)
 
         # Calculating derivatives w.r.t Parameters
-        weightsD = (-2/self.n)*sum(self.x * (self.y - y_pred))
-        biasD = (-1/self.n)*sum(self.y-y_pred)
-
-        pass
+        weights_D = (-2 / self.n) * sum(self.x * (self.y - y_pred))
+        bias_D = (-1 / self.n) * sum(self.y - y_pred)
 
     @staticmethod
     def apply_sigmoid(z):
-        return 1/ (1 + (np.exp(-z)))
+        return 1 / (1 + (np.exp(-z)))
